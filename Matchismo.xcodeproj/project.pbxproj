@@ -22,6 +22,7 @@
 		1520117E18774CF700E9C516 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1520117C18774CF700E9C516 /* InfoPlist.strings */; };
 		1520118018774CF700E9C516 /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520117F18774CF700E9C516 /* MatchismoTests.m */; };
 		1520118B18774D2500E9C516 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520118A18774D2500E9C516 /* Card.m */; };
+		1520118E1877549200E9C516 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520118D1877549200E9C516 /* Deck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		1520117F18774CF700E9C516 /* MatchismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoTests.m; sourceTree = "<group>"; };
 		1520118918774D2500E9C516 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		1520118A18774D2500E9C516 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		1520118C1877549200E9C516 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		1520118D1877549200E9C516 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				1520115B18774CF700E9C516 /* Supporting Files */,
 				1520118918774D2500E9C516 /* Card.h */,
 				1520118A18774D2500E9C516 /* Card.m */,
+				1520118C1877549200E9C516 /* Deck.h */,
+				1520118D1877549200E9C516 /* Deck.m */,
 			);
 			path = Matchismo;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1520118E1877549200E9C516 /* Deck.m in Sources */,
 				1520116B18774CF700E9C516 /* ViewController.m in Sources */,
 				1520116518774CF700E9C516 /* AppDelegate.m in Sources */,
 				1520116118774CF700E9C516 /* main.m in Sources */,
