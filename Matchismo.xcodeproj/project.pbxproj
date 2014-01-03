@@ -21,6 +21,7 @@
 		1520117618774CF700E9C516 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1520115818774CF700E9C516 /* UIKit.framework */; };
 		1520117E18774CF700E9C516 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1520117C18774CF700E9C516 /* InfoPlist.strings */; };
 		1520118018774CF700E9C516 /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520117F18774CF700E9C516 /* MatchismoTests.m */; };
+		1520118B18774D2500E9C516 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520118A18774D2500E9C516 /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1520117B18774CF700E9C516 /* MatchismoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchismoTests-Info.plist"; sourceTree = "<group>"; };
 		1520117D18774CF700E9C516 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1520117F18774CF700E9C516 /* MatchismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoTests.m; sourceTree = "<group>"; };
+		1520118918774D2500E9C516 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		1520118A18774D2500E9C516 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +115,13 @@
 		1520115A18774CF700E9C516 /* Matchismo */ = {
 			isa = PBXGroup;
 			children = (
-				1520116318774CF700E9C516 /* AppDelegate.h */,
-				1520116418774CF700E9C516 /* AppDelegate.m */,
 				1520116618774CF700E9C516 /* Main.storyboard */,
 				1520116918774CF700E9C516 /* ViewController.h */,
 				1520116A18774CF700E9C516 /* ViewController.m */,
 				1520116C18774CF700E9C516 /* Images.xcassets */,
 				1520115B18774CF700E9C516 /* Supporting Files */,
+				1520118918774D2500E9C516 /* Card.h */,
+				1520118A18774D2500E9C516 /* Card.m */,
 			);
 			path = Matchismo;
 			sourceTree = "<group>";
@@ -126,6 +129,8 @@
 		1520115B18774CF700E9C516 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1520116318774CF700E9C516 /* AppDelegate.h */,
+				1520116418774CF700E9C516 /* AppDelegate.m */,
 				1520115C18774CF700E9C516 /* Matchismo-Info.plist */,
 				1520115D18774CF700E9C516 /* InfoPlist.strings */,
 				1520116018774CF700E9C516 /* main.m */,
@@ -252,6 +257,7 @@
 				1520116B18774CF700E9C516 /* ViewController.m in Sources */,
 				1520116518774CF700E9C516 /* AppDelegate.m in Sources */,
 				1520116118774CF700E9C516 /* main.m in Sources */,
+				1520118B18774D2500E9C516 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
