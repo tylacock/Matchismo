@@ -23,6 +23,7 @@
 		1520118018774CF700E9C516 /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520117F18774CF700E9C516 /* MatchismoTests.m */; };
 		1520118B18774D2500E9C516 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520118A18774D2500E9C516 /* Card.m */; };
 		1520118E1877549200E9C516 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 1520118D1877549200E9C516 /* Deck.m */; };
+		15201194187B2EF400E9C516 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 15201193187B2EF400E9C516 /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		1520118A18774D2500E9C516 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		1520118C1877549200E9C516 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
 		1520118D1877549200E9C516 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		15201192187B2EF400E9C516 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		15201193187B2EF400E9C516 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 				1520118A18774D2500E9C516 /* Card.m */,
 				1520118C1877549200E9C516 /* Deck.h */,
 				1520118D1877549200E9C516 /* Deck.m */,
+				15201192187B2EF400E9C516 /* PlayingCard.h */,
+				15201193187B2EF400E9C516 /* PlayingCard.m */,
 			);
 			path = Matchismo;
 			sourceTree = "<group>";
@@ -259,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15201194187B2EF400E9C516 /* PlayingCard.m in Sources */,
 				1520118E1877549200E9C516 /* Deck.m in Sources */,
 				1520116B18774CF700E9C516 /* ViewController.m in Sources */,
 				1520116518774CF700E9C516 /* AppDelegate.m in Sources */,
