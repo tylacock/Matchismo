@@ -11,7 +11,7 @@
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
 @property (nonatomic) int flipCount;
-@property (nonatomic) Deck *initialDeck;
+@property (nonatomic, strong) Deck *initialDeck;
 @end
 
 @implementation ViewController
@@ -19,12 +19,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    for (PlayingCard *card in self.initialDeck.cards) {
-        NSLog(@"%@", card.contents);
     }
-    
-    NSLog(@"Random %@", self.initialDeck.drawRandomCard.contents);
-}
 
 - (void)didReceiveMemoryWarning
 {
@@ -48,22 +43,20 @@
 
 - (IBAction)touchCardButton:(UIButton *)sender
 {
-    NSString *cardContent = [[NSString alloc] init];
-    
-    for (PlayingCard *card in self.initialDeck.cards) {
-        *cardContent = ;
-    }
     if ([sender.currentTitle length]) {
         [sender setBackgroundImage:[UIImage imageNamed:@"stanford-tree"]
                           forState:UIControlStateNormal];
         [sender setTitle:@"" forState:UIControlStateNormal];
+        self.flipCount++;
     } else {
-        [sender setBackgroundImage:[UIImage imageNamed:@"cardfront"]
-                          forState:UIControlStateNormal];
-        [sender setTitle:@"A♣︎" forState:UIControlStateNormal];
+        Card *card = [self.initialDeck drawRandomCard];
+        if (card) {
+            [sender setBackgroundImage:[UIImage imageNamed:@"cardfront"]
+                              forState:UIControlStateNormal];
+            [sender setTitle:card.contents forState:UIControlStateNormal];
+            self.flipCount++;
+        }
     }
-    NSLog(@"%@", cardContent);
-    self.flipCount++;
 }
 
 @end
